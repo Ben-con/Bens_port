@@ -1,0 +1,228 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #E8EFF7;
+}
+
+/* Main Page css start ---------------------------------------------------------------- */
+.navbar{
+    border-bottom: 4px grey solid;
+}
+.hero-img{
+    border-radius: 50%;
+}
+.hero-padding{
+    padding-top: 5em;
+    padding-bottom: 20em;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+.about-header,.skills-header{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 5px black solid;
+    padding-top: .5em;
+}
+.about-h1{
+    margin-top: 1em;
+    text-align: center;
+    margin-bottom: .5em;
+    padding: .5em;
+    
+}
+.about-photo{
+    height:auto;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.about-p{
+    margin: 0 auto;
+    
+}
+
+.photo-container{
+    display: flex;
+    align-content: center;
+    width: 100%;
+    margin-bottom: .5em;
+}
+.about-text{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+  
+}
+
+.project-header{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 5px black solid;
+    padding: .5em;
+    margin-bottom: 1.5em;
+}
+
+.carousel-con{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.skills-card{
+    margin:0 auto;
+    margin-bottom: 1.5em;
+}
+.skills-button{
+    display: flex;
+    justify-content: center;
+}
+
+/* Main page css end ---------------------------------------------------------------- */
+/* Sub Pages css start ---------------------------------------------------------------- */
+
+.sub-pages-header{
+    text-align: center;
+    margin-bottom: 3rem ;
+}
+
+.project-imformation{
+    align-content: center;
+}
+.project-skills-used{
+    display: flex;
+    flex-direction: column;
+}
+.skills-used-list{
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+}
+.skills-used-li{
+    padding: .5em;
+}
+.skills-used-header{
+    text-align: center;
+    margin-top: .5em;
+}
+.sub-pages-p{
+    margin-top: 2em;
+    margin-bottom: .5em;
+    margin-left: .3em;
+}
+.no-show{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* Sub Pages css end ---------------------------------------------------------------- */
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
+.contact-header{
+    margin: 0 auto;
+    color: white;
+}
+.contacts p{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: .5em;
+    color: blue;
+}
+.contact-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.svg-img{
+    margin-right: 1rem;
+    background-color: #E8EFF7;
+    padding: .1rem;
+    border-radius: 15%;
+}
+.svg-img:last-child{
+    margin-right: 0;
+}
+
+.contact-button{
+    margin:0 auto;
+}
+.btn-ben{
+    color: white;
+    background-color: tomato;
+}
+
+.ben-img{
+    border: 10px solid black;
+}
+
+@media screen and (min-width: 768px) {
+    
+    
+    .about-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 6em;
+        padding: 1.5em;
+    }
+    .about-photo{
+        height:auto;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .about-p{
+        margin: 0 auto;
+        width: 80%;
+        
+    }
+    
+    .photo-container{
+        display: flex;
+        align-content: center;
+        width: 35%;
+        margin-left: auto;
+    }
+    .about-text{
+        display: flex;
+        align-items: center;
+        width: 55%;
+        padding: 1em;
+      
+    }
+
+    .carousel-con{
+        width: 75%;
+        margin: 0 auto;
+    }
+    .no-show{
+        display: flex;
+    }
+
+}
