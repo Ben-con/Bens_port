@@ -73,9 +73,19 @@ body{
     margin-bottom: 1.5em;
 }
 
-.carousel-con{
-    width: 90%;
+.project-p{
+    padding: 1em;
+    margin-top: 1em;
+    background: grey;
+    border-radius: 15%;
+}
+.project-img{
     margin: 0 auto;
+}
+
+.column-card{
+    background: black;
+    border-radius: 5%;
 }
 
 .skills-card{
