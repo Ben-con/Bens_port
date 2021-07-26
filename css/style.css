@@ -1,7 +1,7 @@
 
 *{
     box-sizing: border-box;
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 body{
     background-color: #E8EFF7;
@@ -74,12 +74,15 @@ body{
     padding: .5em;
     margin-bottom: 1.5em;
 }
+.project-row{
+    max-width: 100%;
+}
 
 .project-p{
     padding: 1em;
     margin-top: 1em;
     background: grey;
-    border-radius: 15%;
+    border-radius: 2.5rem;
 }
 .project-img{
     margin: 0 auto;
@@ -87,7 +90,7 @@ body{
 
 .column-card{
     background: black;
-    border-radius: 5%;
+    border-radius: 2rem;
 }
 
 .skills-card{
@@ -210,8 +213,7 @@ body{
         
     }
     .about-p{
-        margin: 0 auto;
-        width: 80%;
+        padding: 2em;
         
     }
     
