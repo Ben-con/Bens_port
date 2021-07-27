@@ -11,6 +11,21 @@ body{
 .navbar{
     border-bottom: 4px grey solid;
 }
+.btn-nav{
+    color: grey;
+}
+.dropdown-li:hover{
+    background: green;
+}
+.dropdown-li{
+    border-bottom: 2px solid black;
+}
+
+.menu-nav{
+width: 35%;
+padding-top: 0;
+padding-bottom: 0;
+}
 .hero-img{
     border-radius: 50%;
 }
@@ -103,6 +118,17 @@ body{
 .column-card{
     background: black;
     border-radius: 2rem;
+    margin-bottom: 4em;
+}
+.btn-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.hide{
+    display: none;
 }
 
 .skills-card{
