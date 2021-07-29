@@ -26,6 +26,12 @@ width: 35%;
 padding-top: 0;
 padding-bottom: 0;
 }
+.nav-img{
+    max-width: 75px;
+    height: 75px;
+    border-radius: 50%;
+
+    }
 .hero-img{
     border-radius: 50%;
 }
@@ -139,6 +145,24 @@ padding-bottom: 0;
     display: flex;
     justify-content: center;
 }
+.skills-ul-list{
+   
+}
+.skills-ul{
+    display: flex;
+    flex-direction: column;
+   list-style: none;
+   padding: 0;
+   text-align: center;
+   margin: 0;
+   justify-content: center;
+   align-items: center;
+}
+.skills-li{
+    padding:.3em;
+    margin-bottom: .5em;
+}
+
 
 /* Main page css end ---------------------------------------------------------------- */
 /* Sub Pages css start ---------------------------------------------------------------- */
@@ -273,6 +297,30 @@ padding-bottom: 0;
     }
     .no-show{
         display: flex;
+    }
+    .skills-button{
+        display: flex;
+        justify-content: center;
+    }
+    .skills-ul-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .skills-ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+    }
+    .skills-li{
+        padding: .5em;
+        background-color: green;
+        border-radius: 10%;
+        min-width: 65px;
+        text-align: center;
+        margin-right: 2em;
     }
 
 }
