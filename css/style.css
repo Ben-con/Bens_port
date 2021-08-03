@@ -145,22 +145,22 @@ padding-bottom: 0;
     display: flex;
     justify-content: center;
 }
-.skills-ul-list{
-   
-}
+
 .skills-ul{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
    list-style: none;
    padding: 0;
    text-align: center;
    margin: 0;
-   justify-content: center;
+   justify-content: space-around;
    align-items: center;
 }
 .skills-li{
     padding:.3em;
     margin-bottom: .5em;
+    min-width: 60px;
+   
 }
 
 
