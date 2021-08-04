@@ -1,16 +1,24 @@
 
+const htmlDemo = document.querySelector(".html-demo")
+const htmlDemoPar = document.querySelector(".html-demo-p")
 const selectAll = document.getElementsByTagName("*");
-const htmlDemo = document.getElementsByClassName("html-demo")
-
 
 // help here please.
 htmlDemo.addEventListener("click",e =>{
     if(e.target.classList.contains("not-red")){
-        htmlDemo.classList.remove("not-red")
-       selectAll.style.border = "1px red solid"
+        for (let i = 0; i < selectAll.length; i++) {
+            selectAll[i].classList.add("red-border")
+          }
+       htmlDemo.classList.remove("not-red")
+       htmlDemoPar.textContent = "All you have to do is click the button again to turn the the red borders off again!"
+
     }else{
+        for (let i = 0; i < selectAll.length; i++) {
+            selectAll[i].classList.remove("red-border")
+          }
         htmlDemo.classList.add("not-red") 
-        selectAll.style.border = "none"
+        htmlDemoPar.textContent = "Click below to put a red border around everything on the webpage"
+        
     }
 })
 
