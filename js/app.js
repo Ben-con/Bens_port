@@ -2,6 +2,8 @@
 const selectAll = document.getElementsByTagName("*");
 const htmlDemo = document.getElementsByClassName("html-demo")
 
+
+// help here please.
 htmlDemo.addEventListener("click",e =>{
     if(e.target.classList.contains("not-red")){
         htmlDemo.classList.remove("not-red")
