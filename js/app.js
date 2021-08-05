@@ -1,3 +1,6 @@
+
+// -----------------------JavaScript Demo start------------------------------------------
+
 const javascriptExample1 = document.querySelector("#javascript-demo-ex1")
 const javascriptExample2 = document.querySelector("#javascript-demo-ex2")
 const javascriptExample3 = document.querySelector("#javascript-demo-ex3")
@@ -42,6 +45,7 @@ javascriptDemo.addEventListener("click",e => {
         javascriptDemo.textContent = "Click me!"
     }
 })
+// -----------------------Javascript Demo End------------------------------------------
 
 
 
