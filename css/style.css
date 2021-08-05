@@ -148,6 +148,7 @@ padding-bottom: 0;
 .skills-card{
     margin:0 auto;
     margin-bottom: 1.5em;
+    border-radius: 3em;
 }
 .skills-button{
     display: flex;
@@ -174,6 +175,32 @@ padding-bottom: 0;
     background-color: lightblue;
     border-radius: 5em;
    
+}
+
+.css-demo-title{
+    font-family: cursive;
+}
+
+.css-demo-p{
+    font-family: fantasy;
+}
+
+.css-demo{
+  background-color: lightblue;
+  color: darkred;
+}
+.css-demo,.css-demo-p,.css-demo-title,.css-demo-body{
+    transition: 1s;
+}
+
+.javascript-demo-class{
+    font-size: 1.5rem;
+    color: deepskyblue;
+    
+}
+
+#javascript-demo-ex1,#javascript-demo-ex2,#javascript-demo-ex3,#javascript-demo-ex4,#javascript-demo-ex5,#javascript-demo-ex6,#javascript-demo-ex7#javascript-demo-ex8{
+    transition: 1s;
 }
 
 
@@ -325,6 +352,7 @@ padding-bottom: 0;
         display: flex;
         flex-direction: row;
         justify-content: center;
+        padding: 1em;
     }
     .skills-ul{
         display: flex;
