@@ -47,12 +47,6 @@ javascriptDemo.addEventListener("click",e => {
 })
 // -----------------------Javascript Demo End------------------------------------------
 
-
-
-
-
-
-
 // -----------------------Css Demo start------------------------------------------
 const cssDemo = document.querySelector(".css-demo")
 const cssDemoPar = document.querySelector(".css-demo-p")
@@ -91,6 +85,7 @@ htmlDemo.addEventListener("click",e =>{
             selectAll[i].classList.add("red-border")
           }
        htmlDemo.classList.remove("not-red")
+       htmlDemo.textContent="Click to turn it back"
        htmlDemoPar.textContent = "All you have to do is click the button again to turn the the red borders off again!"
 
     }else{
@@ -99,7 +94,7 @@ htmlDemo.addEventListener("click",e =>{
           }
         htmlDemo.classList.add("not-red") 
         htmlDemoPar.textContent = "Click below to put a red border around everything on the webpage"
-        
+        htmlDemo.textContent="Click me!"
     }
 })
 // -----------------------HTML Demo end------------------------------------------
