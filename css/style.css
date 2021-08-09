@@ -18,11 +18,14 @@ body{
 .btn-nav{
     color: grey;
 }
-.dropdown-li:hover{
-    background: green;
-}
+
 .dropdown-li{
     border-bottom: 2px solid black;
+    
+}
+.dropdown-item{
+    padding: 0;
+    text-align: center;
 }
 
 .menu-nav{
@@ -34,10 +37,22 @@ padding-bottom: 0;
     max-width: 75px;
     height: 75px;
     border-radius: 50%;
+    background-color: lightblue;
+    transition: 1s;
+
+    }
+    .nav-img:hover{
+        transform: scale(1.1) rotate(-30deg);
 
     }
 .hero-img{
     border-radius: 50%;
+    background-color: lightblue;
+    padding: .5em;
+    transition: 1s;
+}
+.hero-img:hover{
+    transform: scale(1.3) rotate(30deg);
 }
 .hero-padding{
     padding-top: 5em;
@@ -200,7 +215,7 @@ padding-bottom: 0;
     
 }
 
-#javascript-demo-ex1,#javascript-demo-ex2,#javascript-demo-ex3,#javascript-demo-ex4,#javascript-demo-ex5,#javascript-demo-ex6,#javascript-demo-ex7#javascript-demo-ex8{
+#javascript-demo-ex1,#javascript-demo-ex2,#javascript-demo-ex3,#javascript-demo-ex4,#javascript-demo-ex5,#javascript-demo-ex6,#javascript-demo-ex7,#javascript-demo-ex8{
     transition: 1s;
 }
 

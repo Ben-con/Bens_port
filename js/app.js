@@ -39,7 +39,7 @@ javascriptDemo.addEventListener("click",e => {
         javascriptDemoPar.textContent = "As you can see java script is a very powerful tool. Click the button one more time to switch everything back to normal!"
         javascriptDemo.textContent ="Click me one more time"
         javascriptDemo.classList.remove("javascript-demo-changeme2")
-    }else{
+    }else if(javascriptDemo.textContent === "Click me one more time"){
         javascriptDemo.classList.add("javascript-demo-changeme")
         javascriptDemoPar.textContent = "Click below to see an amazing example of the wonderful tool JavaScript"
         javascriptDemo.textContent = "Click me!"
