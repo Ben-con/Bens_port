@@ -148,11 +148,15 @@ padding-bottom: 0;
     display: flex;
     flex-direction: column;
     background: grey;
+    border-bottom: 8px black solid;
+    
    
 }
 .project-img{
     margin: 0 auto;
-    border: black 1px solid;
+    border-bottom: black 8px solid;
+    
+
     
 }
 
@@ -169,6 +173,7 @@ padding-bottom: 0;
 
 .hide{
     display: none;
+    transition: 1s;
 }
 .skills-header{
     border-top: none;
