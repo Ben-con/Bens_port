@@ -9,6 +9,7 @@ const javascriptExample5 = document.querySelector("#javascript-demo-ex5")
 const javascriptExample6 = document.querySelector("#javascript-demo-ex6")
 const javascriptExample7 = document.querySelector("#javascript-demo-ex7")
 const javascriptExample8 = document.querySelector("#javascript-demo-ex8")
+const javascriptExample9 = document.querySelector("#javascript-demo-ex9")
 const javascriptDemoPar = document.querySelector("#javascript-demo-p")
 const javascriptDemoTitle = document.querySelector("#javascript-demo-title")
 const javascriptDemo = document.querySelector("#javascript-demo")
@@ -23,8 +24,9 @@ javascriptDemo.addEventListener("click",e => {
         setTimeout(() => {  javascriptExample5.textContent = "Even in here",javascriptExample5.classList.add("javascript-demo-class"); }, 9000); 
         setTimeout(() => {  javascriptExample6.textContent = "you can change",javascriptExample6.classList.add("javascript-demo-class"); }, 10000);  
         setTimeout(() => {  javascriptExample7.textContent = "everything",javascriptExample7.classList.add("javascript-demo-class"); }, 11000);  
-        setTimeout(() => {   javascriptExample8.textContent = "Click the button again",javascriptExample8.classList.add("javascript-demo-class"); }, 12000); 
-        setTimeout(() => {  javascriptDemo.textContent = "Click me again!"; }, 13000); 
+        setTimeout(() => {   javascriptExample8.textContent = "Click the",javascriptExample8.classList.add("javascript-demo-class"); }, 12000); 
+        setTimeout(() => {   javascriptExample9.textContent = "Button again",javascriptExample9.classList.add("javascript-demo-class"); }, 13000); 
+        setTimeout(() => {  javascriptDemo.textContent = "Click me again!"; }, 14000); 
         javascriptDemo.classList.remove("javascript-demo-changeme")
         javascriptDemo.classList.add("javascript-demo-changeme2")
     }else if(e.target.textContent === "Click me again!"){
@@ -33,9 +35,10 @@ javascriptDemo.addEventListener("click",e => {
         javascriptExample3.textContent = "Contact me",javascriptExample3.classList.remove("javascript-demo-class")
         javascriptExample4.textContent = "Projects",javascriptExample4.classList.remove("javascript-demo-class")
         javascriptExample5.textContent = "Web App",javascriptExample5.classList.remove("javascript-demo-class")
-        javascriptExample6.textContent = "online Directory",javascriptExample6.classList.remove("javascript-demo-class")
+        javascriptExample6.textContent = "Employee Directory",javascriptExample6.classList.remove("javascript-demo-class")
         javascriptExample7.textContent = "Web Form",javascriptExample7.classList.remove("javascript-demo-class")
         javascriptExample8.textContent = "Photo Gallery",javascriptExample8.classList.remove("javascript-demo-class")
+        javascriptExample9.textContent = "Wheel of Success",javascriptExample9.classList.remove("javascript-demo-class")
         javascriptDemoPar.textContent = "As you can see java script is a very powerful tool. Click the button one more time to switch everything back to normal!"
         javascriptDemo.textContent ="Click me one more time"
         javascriptDemo.classList.remove("javascript-demo-changeme2")
@@ -46,6 +49,38 @@ javascriptDemo.addEventListener("click",e => {
     }
 })
 // -----------------------Javascript Demo End------------------------------------------
+// -----------------------nav readmore Start------------------------------------------
+javascriptExample7.addEventListener("click", () =>{
+    projectsUnhide.classList.add("more");
+        projectsUnhide.classList.remove("un-hide")
+        projectsUnhide.textContent = "Click to view less Projects";
+        projectHide.classList.remove("hide")
+})
+
+javascriptExample8.addEventListener("click", () =>{
+    projectsUnhide.classList.add("more");
+        projectsUnhide.classList.remove("un-hide")
+        projectsUnhide.textContent = "Click to view less Projects";
+        projectHide.classList.remove("hide")
+})
+
+javascriptExample9.addEventListener("click", () =>{
+    projectsUnhide.classList.add("more");
+        projectsUnhide.classList.remove("un-hide")
+        projectsUnhide.textContent = "Click to view less Projects";
+        projectHide.classList.remove("hide")
+})
+
+const firstPortMore = document.querySelector('#first-port-more')
+
+firstPortMore.addEventListener("click", () =>{
+    projectsUnhide.classList.add("more");
+        projectsUnhide.classList.remove("un-hide")
+        projectsUnhide.textContent = "Click to view less Projects";
+        projectHide.classList.remove("hide")
+})
+// -----------------------nav readmore End------------------------------------------
+
 
 // -----------------------Css Demo start------------------------------------------
 const cssDemo = document.querySelector(".css-demo")

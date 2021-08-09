@@ -21,6 +21,7 @@ body{
 
 .dropdown-li{
     border-bottom: 2px solid black;
+    padding:.3em 0 .3em 0;
     
 }
 .dropdown-item{
@@ -126,13 +127,26 @@ padding-bottom: 0;
     padding: .5em;
     margin-bottom: 1.5em;
 }
+.view-write-up{
+    margin: 0 auto;
+    margin-top: .5em;
+    border-radius: .5em;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    padding:.7em;
+}
+.view-write-up-link{
+    margin: 0 auto;
+}
 .project-row{
     max-width: 100%;
 }
 
 .project-p{
     padding: 1em;
-    
+    display: flex;
+    flex-direction: column;
     background: grey;
    
 }
@@ -209,7 +223,7 @@ padding-bottom: 0;
 }
 
 .javascript-demo-class{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background-color:  deepskyblue;
     width: 100%;
     
