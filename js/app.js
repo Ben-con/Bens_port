@@ -2,13 +2,20 @@
 const summaryButtons = document.querySelectorAll(".view-summary")
 
 
-summaryButtons.forEach(button => {
-    button,addEventListener('click', e =>{
-        if(e.target.classList.contains("view-summary")){
-           console.log(e.target.closest('.hide')) 
+
+    summaryButtons,addEventListener('click', e =>{
+        if(e.target.classList.contains("summary-hide")){
+            e.target.classList.remove("summary-hide")
+            e.target.previousElementSibling.closest('.hide').classList.add("non-hide")
+            e.target.previousElementSibling.closest('.hide').classList.remove('hide')
+            e.target.textContent = "Hide summary"
+        }else{
+            e.target.previousElementSibling.closest('.non-hide').classList.add("hide")
+            e.target.classList.add("summary-hide")
+            e.target.textContent = "Click to view summary"
         }
-    })
-});
+    });
+
 
 
 
