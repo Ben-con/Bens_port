@@ -1,4 +1,23 @@
 
+const summaryButtons = document.querySelectorAll(".view-summary")
+
+
+summaryButtons.forEach(button => {
+    button,addEventListener('click', e =>{
+        if(e.target.classList.contains("view-summary")){
+           console.log(e.target.closest('.hide')) 
+        }
+    })
+});
+
+
+
+
+
+
+
+
+
 // -----------------------JavaScript Demo start------------------------------------------
 
 const javascriptExample1 = document.querySelector("#javascript-demo-ex1")
