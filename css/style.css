@@ -60,21 +60,17 @@ padding-bottom: 0;
 .hero-padding{
     padding-top: 5em;
     padding-bottom: 20em;
+    background-image: url("../imgs/background-img.jpeg");
+    background-repeat: repeat;
 }
-.about-container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 0 auto;
-    padding: .5em;
-    border-radius: 2em;
-    background: darkblue;
+
+
+.about-padding{
+    padding-top: 10em;
+    padding-bottom: 10em;
 }
-.about-section{
-    background: black;
-    padding:  6em 0 6em 0;
-}
+
+
 .about-header,.skills-header,.skill-list-header{
     flex-basis: 100%;
     display: flex;
@@ -82,29 +78,8 @@ padding-bottom: 0;
     border-top: 5px black solid;
     padding-top: .5em;
 }
-.about-h1{
-    margin-top: 1em;
-    text-align: center;
-    margin-bottom: .5em;
-    padding: .5em;
-    
-    background: grey;
-    border-radius: 3em;
-    
-}
-.about-photo{
-    height:30vh;
-    width: 30vw;
-    margin: 0 auto;
-    border-radius: 50%;
-    
-}
-.about-p{
-    padding: .5em;
-    background: grey;
-    border-radius: 1.5em;
-    
-}
+
+
 
 .photo-container{
     display: flex;
@@ -112,14 +87,7 @@ padding-bottom: 0;
     width: 100%;
     margin-bottom: .5em;
 }
-.about-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 1em;
-  
-}
+
 
 .project-header{
     flex-basis: 100%;
