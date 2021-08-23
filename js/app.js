@@ -172,5 +172,62 @@ projectsUnhide.addEventListener("click",e =>{
     }
 })
 // -----------------------See more projects end------------------------------------------
+// -----------------------Svg Hovers Start------------------------------------------
+
+const svgImg1 = document.querySelector(".svg-1")
+const svgImg2 = document.querySelector(".svg-2")
+const svgImg3 = document.querySelector(".svg-3")
+const svgImg4 = document.querySelector(".svg-4")
+const svgImg5 = document.querySelector(".svg-5")
+const svgLi1 = document.querySelector(".contact-li-1")
+const svgLi2 = document.querySelector(".contact-li-2")
+const svgLi3 = document.querySelector(".contact-li-3")
+const svgLi4 = document.querySelector(".contact-li-4")
+const svgLi5 = document.querySelector(".contact-li-5")
+
+svgLi1.addEventListener("mouseover",() =>{
+    svgImg1.classList.add("facebook-svg")
+})
+svgLi1.addEventListener("mouseout",() =>{
+    svgImg1.classList.remove("facebook-svg")
+})
+
+
+svgLi2.addEventListener("mouseover",() =>{
+    svgImg2.classList.add("github-svg")
+})
+svgLi2.addEventListener("mouseout",() =>{
+    svgImg2.classList.remove("github-svg")
+})
+
+svgLi3.addEventListener("mouseover",() =>{
+    svgImg3.classList.add("instagram-svg")
+})
+svgLi3.addEventListener("mouseout",() =>{
+    svgImg3.classList.remove("instagram-svg")
+})
+
+svgLi4.addEventListener("mouseover",() =>{
+    svgImg4.classList.add("twitter-svg")
+})
+svgLi4.addEventListener("mouseout",() =>{
+    svgImg4.classList.remove("twitter-svg")
+})
+
+svgLi5.addEventListener("mouseover",() =>{
+    svgImg5.classList.add("gmail-svg")
+})
+svgLi5.addEventListener("mouseout",() =>{
+    svgImg5.classList.remove("gmail-svg")
+})
+
+
+
+
+
+
+
+
+// -----------------------Svg Hovers End------------------------------------------
 
 

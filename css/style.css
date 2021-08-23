@@ -309,6 +309,7 @@ padding-bottom: 0;
     border-bottom: 1px blue solid;
     border-radius: 1em;
     text-decoration: none;
+    transition: background-color .1s;
 }
 .contact-li:hover{
     background-color: lightblue;
@@ -353,7 +354,30 @@ padding-bottom: 0;
     background-color: #E8EFF7;
     padding: .1rem;
     border-radius: 15%;
+    transition: .1s;
 }
+.instagram-svg{
+    fill: black;
+    background: rgb(248,195,10);
+    background: linear-gradient(180deg, rgba(248,195,10,1) 0%, rgba(235,33,32,1) 100%);
+}
+.gmail-svg{
+    fill: #f45444;
+    background-color: white;
+}
+.facebook-svg{
+    fill: #0570f4;
+    background-color: white;
+}
+.twitter-svg{
+    fill: #1cccf0;
+    background-color: white;
+}
+.github-svg{
+    fill: #a449b0;
+    background-color: black;
+}
+
 .svg-img:last-child{
     margin-right: 0;
 }
@@ -483,3 +507,4 @@ padding-bottom: 0;
     }
 
 }
+
