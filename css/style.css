@@ -9,7 +9,7 @@
 }
 body{
     background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(63,133,203,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(63,133,203,1) 100%);
 }
 
 /* Main Page css start ---------------------------------------------------------------- */
@@ -106,6 +106,19 @@ padding-bottom: 0;
     background-color: #0d6efd;
     border-color: #0d6efd;
     padding:.7em;
+    margin-top: 1em;
+}
+.download-link{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: .5em;
+    margin-right: 1em;
+    transition: .5s;
+}
+.download-link:hover{
+    background-color: #0d6efd;
+    color: white;
 }
 .project-row{
     max-width: 100%;
@@ -265,29 +278,63 @@ padding-bottom: 0;
 
 .contacts{
     display: flex;
-    flex-direction: column;
-    padding: 5em;
-    
-    
+    flex-direction: row;
+    padding-bottom: 1em;
 }
 .contact-header{
-    margin: 0 auto;
     color: white;
+    width: fit-content;
+    margin: 0 auto;
 }
-.contacts p{
-    text-align: center;
-    margin-bottom: 0;
-    margin-top: .5em;
-    color: blue;
-}
-.contact-list{
+.contact-ul,.contact-info-div{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    list-style: none;
     justify-content: center;
-    margin-bottom: 1rem;
+    width: 75%;
+    padding: 1em 5em 1em 5em;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border-radius: 1em;
+    text-align: center;
+}
+.contact-li{
+    color: black;
+    display: flex;
+    margin-top: .5em;
+    border-bottom: 1px blue solid;
+    border-radius: 1em;
+    text-decoration: none;
+}
+.contact-li:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+.contact-p{
+    margin: 0;
+    align-self: center;
+    margin: 0 auto;
+    
+}
+.contact-info-p{
+ display: flex;
+ flex-direction: row;
+ margin-top: .5em;
+ padding: .5em;
+ border-bottom: 1px blue solid;
+ border-radius: 1em;
+ justify-content: center;
+}
+.contact-info-start{
+    margin-right: auto;
+}
+.contact-link{
+    text-decoration: none;
+}
+.contact-list,.contact-info{
+    width: 50%;
 }
 .svg-img{
-    margin-right: 1rem;
     background-color: #E8EFF7;
     padding: .1rem;
     border-radius: 15%;
