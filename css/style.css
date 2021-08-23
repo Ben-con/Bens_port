@@ -322,16 +322,25 @@ padding-bottom: 0;
  display: flex;
  flex-direction: row;
  margin-top: .5em;
+ margin-bottom: 1.2em;
  padding: .5em;
  border-bottom: 1px blue solid;
  border-radius: 1em;
- justify-content: center;
 }
-.contact-info-start{
-    margin-right: auto;
-}
+
 .contact-link{
     text-decoration: none;
+}
+.contact-info-div{
+    justify-content: space-between
+}
+.contact-info-start{
+    margin: 0 auto;
+    text-align: start;
+    width: 60%;
+}
+.contact-info-p p{
+    margin-bottom: 0;
 }
 .contact-list,.contact-info{
     width: 100%;
@@ -464,11 +473,8 @@ padding-bottom: 0;
      padding: .5em;
      border-bottom: 1px blue solid;
      border-radius: 1em;
-     justify-content: center;
     }
-    .contact-info-start{
-        margin-right: auto;
-    }
+    
     .contact-list,.contact-info{
         width: 50%;
     }
