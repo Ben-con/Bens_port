@@ -278,7 +278,7 @@ padding-bottom: 0;
 
 .contacts{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding-bottom: 1em;
 }
 .contact-header{
@@ -291,12 +291,13 @@ padding-bottom: 0;
     flex-direction: column;
     list-style: none;
     justify-content: center;
-    width: 75%;
-    padding: 1em 5em 1em 5em;
+    width: 85%;
+   padding: 0;
     margin: 0 auto;
     background-color: whitesmoke;
     border-radius: 1em;
     text-align: center;
+    margin-top: 1em;
 }
 .contact-li{
     color: black;
@@ -314,6 +315,7 @@ padding-bottom: 0;
     margin: 0;
     align-self: center;
     margin: 0 auto;
+    width: 40%;
     
 }
 .contact-info-p{
@@ -332,7 +334,8 @@ padding-bottom: 0;
     text-decoration: none;
 }
 .contact-list,.contact-info{
-    width: 50%;
+    width: 100%;
+    margin: 0 auto;
 }
 .svg-img{
     background-color: #E8EFF7;
@@ -427,6 +430,47 @@ padding-bottom: 0;
         width: 100%;
         margin: 0 auto;
         border-radius: 1em;
+    }
+
+}
+@media screen and (min-width: 1024px){
+    .contacts{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 1em;
+    }
+    .contact-header{
+        color: white;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .contact-ul,.contact-info-div{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content: center;
+        width: 75%;
+        padding: 1em 5em 1em 5em;
+        margin: 0 auto;
+        background-color: whitesmoke;
+        border-radius: 1em;
+        text-align: center;
+    }
+    
+    .contact-info-p{
+     display: flex;
+     flex-direction: row;
+     margin-top: .5em;
+     padding: .5em;
+     border-bottom: 1px blue solid;
+     border-radius: 1em;
+     justify-content: center;
+    }
+    .contact-info-start{
+        margin-right: auto;
+    }
+    .contact-list,.contact-info{
+        width: 50%;
     }
 
 }
