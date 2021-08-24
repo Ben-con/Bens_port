@@ -15,7 +15,8 @@ body{
 /* Main Page css start ---------------------------------------------------------------- */
 .navbar{
     border-bottom: 4px grey solid;
-}
+    background: rgb(7,32,57);
+    background: linear-gradient(56deg, rgba(7,32,57,1) 0%, rgba(54,54,54,1) 100%);}
 .btn-nav{
     color: grey;
 }
@@ -128,7 +129,8 @@ padding-bottom: 0;
     padding: .5em;
     display: flex;
     flex-direction: column;
-    background: grey;
+    background: rgb(247,250,254);
+    background: radial-gradient(circle, rgba(247,250,254,1) 0%, rgba(186,192,199,1) 100%);
     border-bottom: 8px black solid;
 }
 .project-p p{
@@ -233,6 +235,11 @@ padding-bottom: 0;
     text-align: center;
     margin-bottom: 3rem ;
 }
+.sub-page-link{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
 
 .project-imformation{
     align-content: center;
@@ -241,25 +248,45 @@ padding-bottom: 0;
     display: flex;
     flex-direction: column;
 }
-.skills-used-list{
-    justify-content: space-around;
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-top: 1em;
-}
-.skills-used-li{
-    padding: .5em;
-}
+
 .skills-used-header{
     text-align: center;
     margin-top: .5em;
+    background-color: whitesmoke;
+    border-radius: 1em;
+    padding: .5em 0em .5em 0em;
+}
+
+.sub-page-img{
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.sub-page-img1{
+ background: rgb(10,83,157);
+ background: linear-gradient(163deg, rgba(10,83,157,1) 57%, rgba(255,255,255,1) 100%);
+ border-radius: 0;
+}
+.sub-page-img2{
+    background: rgb(10,83,157);
+    background: linear-gradient(195deg, rgba(10,83,157,1) 57%, rgba(255,255,255,1) 100%);
+    border-radius: 0;
+}
+.sub-page-img3{
+    background: rgb(10,83,157);
+    background: linear-gradient(9deg, rgba(10,83,157,1) 57%, rgba(255,255,255,1) 100%);
+    border-radius: 0;
+}
+    
+.sub-page-img4{
+    background: rgb(10,83,157);
+    background: linear-gradient(349deg, rgba(10,83,157,1) 57%, rgba(255,255,255,1) 100%);
+    border-radius: 0;
 }
 .sub-pages-p{
     margin-top: 2em;
-    margin-bottom: .5em;
-    margin-left: .3em;
+    padding: 1em;
+    background-color: whitesmoke;
+    border-radius: 1em;
 }
 .no-show{
     display: none;
@@ -432,9 +459,7 @@ padding-bottom: 0;
         width: 75%;
         margin: 0 auto;
     }
-    .no-show{
-        display: flex;
-    }
+    
     .skills-button{
         display: flex;
         justify-content: center;
@@ -505,6 +530,32 @@ padding-bottom: 0;
     .contact-list,.contact-info{
         width: 50%;
     }
+    
 
+}
+
+@media screen and (min-width: 993px){
+    .no-show{
+        display: flex;
+    }
+    .sub-page-img{
+        margin-bottom: 0;
+    }
+    .sub-page-img1{
+        border-top-left-radius: 2em;
+
+    }
+    .sub-page-img2{
+        border-top-right-radius: 2em;
+    }
+    .sub-page-img3{
+        border-bottom-left-radius: 2em;
+    }
+    .sub-page-img4{
+        border-bottom-right-radius: 2em;
+    }
+    .accordion-round{
+        border-bottom-left-radius: 2em;
+    }
 }
 

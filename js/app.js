@@ -33,7 +33,7 @@ const javascriptExample9 = document.querySelector("#javascript-demo-ex9")
 const javascriptDemoPar = document.querySelector("#javascript-demo-p")
 const javascriptDemoTitle = document.querySelector("#javascript-demo-title")
 const javascriptDemo = document.querySelector("#javascript-demo")
-
+if(javascriptDemo){
 javascriptDemo.addEventListener("click",e => {
     if(e.target.classList.contains("javascript-demo-changeme")){
         javascriptDemoPar.textContent = "JavaScript is amazing you can you can change almost everying on a webpage with it. Just look at the navigation bar"
@@ -68,6 +68,7 @@ javascriptDemo.addEventListener("click",e => {
         javascriptDemo.textContent = "Click me!"
     }
 })
+}
 // -----------------------Javascript Demo End------------------------------------------
 // -----------------------nav readmore Start------------------------------------------
 javascriptExample7.addEventListener("click", () =>{
@@ -107,7 +108,7 @@ const cssDemo = document.querySelector(".css-demo")
 const cssDemoPar = document.querySelector(".css-demo-p")
 const cssDemoTitle = document.querySelector(".css-demo-title")
 const cssDemoBody = document.querySelector(".css-demo-body")
-
+if(cssDemo){
 cssDemo.addEventListener("click", e =>{
     if(cssDemo.id === "css-demo-start"){
         cssDemoPar.textContent = "CSS is a great tool that lets me change the look of everything that you are looking at on this webpage!"
@@ -127,13 +128,14 @@ cssDemo.addEventListener("click", e =>{
         cssDemo.id = "css-demo-start"
     }
 })
+}
 // -----------------------Css Demo end------------------------------------------
 
 // -----------------------HTML Demo start------------------------------------------
 const htmlDemo = document.querySelector(".html-demo")
 const htmlDemoPar = document.querySelector(".html-demo-p")
 const selectAll = document.getElementsByTagName("*");
-
+if(htmlDemo){
 htmlDemo.addEventListener("click",e =>{
     if(e.target.classList.contains("not-red")){
         for (let i = 0; i < selectAll.length; i++) {
@@ -152,25 +154,28 @@ htmlDemo.addEventListener("click",e =>{
         htmlDemo.textContent="Click me!"
     }
 })
+}
 // -----------------------HTML Demo end------------------------------------------
 
 // -----------------------See more projects start------------------------------------------
 const projectsUnhide = document.querySelector(".un-hide");
 const projectHide = document.querySelector(".hide")
-
-projectsUnhide.addEventListener("click",e =>{
-    if(e.target.classList.contains("un-hide")){
-        projectsUnhide.classList.add("more");
-        projectsUnhide.classList.remove("un-hide")
-        projectsUnhide.textContent = "Click to view less Projects";
-        projectHide.classList.remove("hide")
-    }else{
-        projectsUnhide.classList.remove("more");
-        projectHide.classList.add("hide")
-        projectsUnhide.classList.add("un-hide")
-        projectsUnhide.textContent = "Click to view more Projects";
-    }
-})
+if(projectsUnhide){
+    
+    projectsUnhide.addEventListener("click",e =>{
+        if(e.target.classList.contains("un-hide")){
+            projectsUnhide.classList.add("more");
+            projectsUnhide.classList.remove("un-hide")
+            projectsUnhide.textContent = "Click to view less Projects";
+            projectHide.classList.remove("hide")
+        }else{
+            projectsUnhide.classList.remove("more");
+            projectHide.classList.add("hide")
+            projectsUnhide.classList.add("un-hide")
+            projectsUnhide.textContent = "Click to view more Projects";
+        }
+    })
+}
 // -----------------------See more projects end------------------------------------------
 // -----------------------Svg Hovers Start------------------------------------------
 
