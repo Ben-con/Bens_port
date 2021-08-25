@@ -233,7 +233,7 @@ padding-bottom: 0;
 
 .sub-pages-header{
     text-align: center;
-    margin-bottom: 3rem ;
+    margin-bottom: 2rem ;
 }
 .sub-page-link{
     text-align: center;
@@ -287,6 +287,30 @@ padding-bottom: 0;
     padding: 1em;
     background-color: whitesmoke;
     border-radius: 1em;
+}
+.sub-pages-text{
+    margin: 0 auto;
+    width:fit-content;
+    padding: 1em;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(63,133,203,1) 100%);
+    border: 1px black solid;
+    color:black;
+    border-radius: 1em;
+    margin-bottom: .3em;
+    transition: .5s;
+}
+.sub-pages-text:hover{
+    background: rgb(87,255,0);
+    background: radial-gradient(circle, rgba(87,255,0,1) 0%, rgba(181,218,175,1) 100%);
+    -webkit-box-shadow: 5px 5px 15px -3px #000000, 5px 5px 7px 8px #627DA8; 
+    box-shadow: 5px 5px 15px -3px #000000, 5px 5px 7px 8px #627DA8;
+}
+.sub-pages-text:focus{
+   border: 5px black solid;
+}
+.sub-pages-link{
+    text-decoration: none;
 }
 .no-show{
     display: none;
