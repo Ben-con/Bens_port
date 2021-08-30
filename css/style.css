@@ -69,13 +69,18 @@ padding-bottom: 0;
 .hero-header{
     width: 45%;
     text-align: left;
+    padding: 1em;
 }
 .hero-header-img-div{
     width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
 }
 .hero-header-img{
     width: 100%;
     height: auto;
+    padding: 1em;
 }
 .hero-button-div{
     display: flex;
