@@ -87,11 +87,11 @@ padding-bottom: 0;
     display: flex;
     flex-direction: row;
     align-content: center;
-    transform: rotate(3deg);
+    transform: rotate(3.5deg);
     transform-origin: top left;
 }
 .hero-header-img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
     border: 1px white solid;
 }
