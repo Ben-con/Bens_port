@@ -141,7 +141,6 @@ padding-bottom: 0;
 
 .about-padding{
     padding-top: 10em;
-    padding-bottom: 10em;
 }
 
 
@@ -149,7 +148,6 @@ padding-bottom: 0;
     flex-basis: 100%;
     display: flex;
     justify-content: center;
-    border-top: 5px black solid;
     padding-top: .5em;
 }
 
@@ -186,9 +184,19 @@ padding-bottom: 0;
     margin-top: 1em;
    transition: 1s;
 }
-.view-write-up,.view-summary:hover{
-    
+.view-write-up:hover{
+    color: #ffe9de;
+    background-color: #ff8243;
+    border: 2px solid black;
+    transform: scale(1.1);
 }
+.view-summary:hover{
+    color: #ffe9de;
+    background-color: #ff8243;
+    border: 2px solid black;
+    transform: scale(1.1);
+}
+
 .download-link{
     text-decoration: none;
     background-color: #ffb692;
@@ -248,6 +256,8 @@ padding-bottom: 0;
     
 .skills-header{
     border-top: none;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 .skills-card{
@@ -579,6 +589,8 @@ padding-bottom: 0;
         flex-direction: row;
         justify-content: center;
         padding: 1em;
+        margin-top: 4em;
+        margin-bottom: 4em;
     }
     .skills-ul{
         display: flex;
@@ -595,6 +607,11 @@ padding-bottom: 0;
         min-width: 65px;
         text-align: center;
         margin-right: 1.75em;
+    }
+    .skills-pg{
+        background-color: #e1f9fd;
+        padding-top: 3em;
+        padding-bottom: 3em;
     }
     .about-photo{
         height:auto;
