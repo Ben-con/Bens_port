@@ -201,8 +201,9 @@ padding-bottom: 0;
     width: 60%;
 }
 .download-link:hover{
-    background-color: #0d6efd;
-    color: white;
+    background-color: #ffe9de;
+    border: 4px #ff8243 solid;
+    text-align: center;
 }
 .project-row{
     max-width: 100%;
