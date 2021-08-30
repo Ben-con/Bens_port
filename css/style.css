@@ -8,10 +8,6 @@
     border: 1px red solid;
     transition: border 1s;
 }
-body{
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(63,133,203,1) 100%);
-}
 
 /* Main Page css start ---------------------------------------------------------------- */
 .navbar{
@@ -175,23 +171,34 @@ padding-bottom: 0;
     padding: .5em;
     margin-bottom: 1.5em;
 }
+.project-container{
+    background-color: #e1f9fd;
+    padding-bottom: 2em;
+}
 .view-write-up,.view-summary{
     margin: 0 auto;
     margin-top: .5em;
-    border-radius: .5em;
-    color: #fff;
-    background-color: #0d6efd;
-    border-color: #0d6efd;
+    border-radius: 3em;
+    color: #ff8243;
+    border-color:#ff8243;
+    background-color: #ffe9de;
     padding:.7em;
     margin-top: 1em;
+   transition: 1s;
+}
+.view-write-up,.view-summary:hover{
+    
 }
 .download-link{
     text-decoration: none;
-    background-color: white;
-    color: black;
-    padding: .5em;
-    margin-right: 1em;
+    background-color: #ffb692;
+    border-radius: 1.5em;
+    border: 1px solid #ff8243;
+    padding: 1em;
+    margin: 0 auto;
+    margin-top: .5em;
     transition: .5s;
+    width: 60%;
 }
 .download-link:hover{
     background-color: #0d6efd;
@@ -205,12 +212,11 @@ padding-bottom: 0;
     padding: .5em;
     display: flex;
     flex-direction: column;
-    background: rgb(247,250,254);
-    background: radial-gradient(circle, rgba(247,250,254,1) 0%, rgba(186,192,199,1) 100%);
+    background-color: #f5f5f5;
     border-bottom: 8px black solid;
 }
 .project-p p{
-    background-color: lightcyan;
+    background-color: #FFFAFA;
     padding: .5em;
     border-radius: 1em;
 }
@@ -230,7 +236,6 @@ padding-bottom: 0;
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 1em;
 }
 
 .hide{
