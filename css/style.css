@@ -14,8 +14,11 @@ body{
 /* Main Page css start ---------------------------------------------------------------- */
 .navbar{
     border-bottom: 4px grey solid;
-    background: rgb(7,32,57);
-    background: linear-gradient(56deg, rgba(7,32,57,1) 0%, rgba(54,54,54,1) 100%);}
+    background: rgb(20,90,148);
+    background: linear-gradient(128deg, rgba(20,90,148,1) 9%, rgba(30,128,139,1) 100%);
+
+
+}
 .btn-nav{
     color: grey;
 }
@@ -133,6 +136,9 @@ padding-bottom: 0;
 
 .about-padding{
     padding-top: 10em;
+}
+.about-me-title{
+    color: #3e83f6;
 }
 
 
@@ -312,7 +318,10 @@ padding-bottom: 0;
 }
 .css-demo:hover{
     color: white;
-    transform: scale(1.1) rotate(2deg);
+    animation-name:buttonPulse;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 .javascript-button{
     color: white;
@@ -324,7 +333,10 @@ padding-bottom: 0;
 }
 .javascript-button:hover{
     color: white;
-    transform: scale(1.1) rotate(-2deg); 
+    animation-name:buttonPulse;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 .html-demo{
@@ -337,7 +349,10 @@ padding-bottom: 0;
 }
 .html-demo:hover{
     color: white;
-    transform: scale(1.1) rotate(-2deg); 
+    animation-name:buttonPulse;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 .css-demo,.css-demo-p,.css-demo-title,.css-demo-body{
     transition: 1s;
@@ -385,7 +400,7 @@ padding-bottom: 0;
     width: 30%;
     z-index: 1022;
     top: 40vh;
-    left: 40vw;
+    left: 37vw;
 }
 .opening-div{
     width: 100%;
@@ -452,6 +467,17 @@ padding-bottom: 0;
     }
     100%{
         transform: scale(0);
+    }
+}
+@keyframes buttonPulse{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
     }
 }
 
@@ -755,8 +781,8 @@ padding-bottom: 0;
         position: fixed;
         width: 20%;
         z-index: 1022;
-        top: 40vh;
-        left: 40vw;
+        top: 35vh;
+        left: 43vw;
     }
 
 }
@@ -839,8 +865,8 @@ padding-bottom: 0;
         position: fixed;
         width: 15%;
         z-index: 1022;
-        top: 40vh;
-        left: 40vw;
+        top: 35vh;
+        left: 43vw;
     }
     
 
