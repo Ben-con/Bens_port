@@ -2,6 +2,8 @@
 *{
     box-sizing: border-box;
     /* border: 1px red solid; */
+}
+body{
     color: #2644b3;
 }
 .red-border{
@@ -253,11 +255,22 @@ padding-bottom: 0;
 .skills-card{
     margin:0 auto;
     margin-bottom: 1.5em;
-    border-radius: 3em;
+    border-radius: 1em;
+    color: white;
+}
+.skills-card-1{
+ background-color: #56b46a;
+}
+.skills-card-2{
+ background-color: #fbc53f;
+}
+.skills-card-3{
+    background-color: #818cf8;
+    transform-origin: top left;
+    transform: rotate(-2deg);
 }
 .skills-button{
-    display: flex;
-    justify-content: center;
+   margin-left: 1em;
 }
 
 .skills-ul{
@@ -291,8 +304,40 @@ padding-bottom: 0;
 }
 
 .css-demo{
-  background-color: lightblue;
-  color: darkred;
+    color: white;
+    padding: .5em;
+    border-radius: 3em;
+    background: rgb(239,72,79);
+    background: linear-gradient(90deg, rgba(239,72,79,1) 0%, rgba(244,111,177,1) 100%);
+}
+.css-demo:hover{
+    color: white;
+    transform: scale(1.1) rotate(2deg);
+}
+.javascript-button{
+    color: white;
+    padding: .5em;
+    background: rgb(117,0,255);
+    background: linear-gradient(87deg, rgba(117,0,255,1) 0%, rgba(11,97,228,1) 100%);
+    border-radius: 3em;
+    transition: 1s;
+}
+.javascript-button:hover{
+    color: white;
+    transform: scale(1.1) rotate(-2deg); 
+}
+
+.html-demo{
+    color: white;
+    padding: .5em;
+    border-radius: 3em;
+    background: rgb(245,154,14);
+    background: linear-gradient(90deg, rgba(245,154,14,1) 0%, rgba(239,75,64,1) 100%);
+    transition: 1s;
+}
+.html-demo:hover{
+    color: white;
+    transform: scale(1.1) rotate(-2deg); 
 }
 .css-demo,.css-demo-p,.css-demo-title,.css-demo-body{
     transition: 1s;
@@ -316,6 +361,7 @@ padding-bottom: 0;
     background-color: #ffe9de;
     top: 0;
     left: 0;
+    border-bottom: 4px black solid;
 }
 .opening-bottom{
     z-index: 1021;
@@ -326,6 +372,7 @@ padding-bottom: 0;
     background-color: #ffe9de;
     bottom: 0;
     right: 0;
+    border-top: 4px solid black;
 }
 .opening-img{
     z-index: 1022;
@@ -346,6 +393,67 @@ padding-bottom: 0;
     z-index: 1021;
     display: flex;
     flex-direction: column;
+}
+
+.opening-hide{
+    display: none;
+}
+.spinning {
+    animation-name: spin;
+    animation-duration: 1500ms;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;
+  }
+  .move-off1{
+      animation-name: moveOff;
+      animation-delay: 1500ms;
+      animation-duration: 1500ms;
+      animation-timing-function: linear;
+  }
+  .move-off2{
+    animation-name: moveOff2;
+    animation-delay: 1500ms;
+    animation-duration: 1500ms;
+    animation-timing-function: linear;
+}
+.move-off3{
+    animation-name: moveOff3;
+    animation-delay: 1500ms;
+    animation-duration: 1500ms;
+    animation-timing-function: linear;
+}
+  
+  @keyframes spin {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  }
+  @keyframes moveOff{
+      0%{
+          transform: translateY(0px);
+      }
+      100%{
+          transform: translateY(-1000px);
+      }
+  }
+  @keyframes moveOff2{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(1000px);
+    }
+}
+@keyframes moveOff3{
+    0%{
+        transform: scale(1) ;
+    }
+    100%{
+        transform: scale(0);
+    }
 }
 
 
@@ -609,10 +717,6 @@ padding-bottom: 0;
         margin: 0 auto;
     }
     
-    .skills-button{
-        display: flex;
-        justify-content: center;
-    }
     .skills-ul-list{
         display: flex;
         flex-direction: row;
