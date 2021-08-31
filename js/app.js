@@ -228,11 +228,29 @@ svgLi5.addEventListener("mouseout",() =>{
 
 
 
-
-
-
-
-
 // -----------------------Svg Hovers End------------------------------------------
+// -----------------------CSS Animtion Hide Start------------------------------------------
+
+const openingDiv = document.querySelector(".opening-div")
+const openingDivTop = document.querySelector(".opening-top")
+const openingDivBottom = document.querySelector(".opening-bottom")
+const openingDivImgDiv = document.querySelector(".opening-img-div")
+const openingDivImg = document.querySelector(".opening-img")
+
+function hideAnimation(){
+    openingDiv.classList.add("opening-hide");
+    openingDivBottom.classList.add("opening-hide");
+    openingDivImg.classList.add("opening-hide");
+    openingDivTop.classList.add("opening-hide")
+    openingDivImgDiv.classList.add("openingDivImgDiv");
+}
+
+setTimeout(hideAnimation,2900);
+
+
+
+
+
+// -----------------------CSS Animtion Hide End------------------------------------------
 
 
