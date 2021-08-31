@@ -58,7 +58,7 @@ padding-bottom: 0;
 
 
 .hero-section-child{
-    width: 85%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
@@ -71,25 +71,15 @@ padding-bottom: 0;
     margin-bottom: 4em;
 }
 .hero-header{
-    width: 45%;
+    width: 100%;
     text-align: left;
     padding: 1em;
     background-color: #f5f5f5;
     border-radius: 1em;
     transform: rotate(-2deg);
 }
-.hero-header-img-div{
-    width: 45%;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    transform: rotate(3.5deg);
-    transform-origin: top left;
-}
-.hero-header-img{
-    max-width: 100%;
-    height: auto;
-    border: 1px white solid;
+.hero-hide{
+    display: none;
 }
 .hero-button-div{
     display: flex;
@@ -207,11 +197,11 @@ padding-bottom: 0;
     margin-top: .5em;
     transition: .5s;
     width: 60%;
+    text-align: center;
 }
 .download-link:hover{
     background-color: #ffe9de;
     border: 4px #ff8243 solid;
-    text-align: center;
 }
 .project-row{
     max-width: 100%;
@@ -622,6 +612,45 @@ padding-bottom: 0;
 
 }
 @media screen and (min-width: 1024px){
+    
+    .hero-section-child{
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        justify-content: space-between;
+        background-color: #17b9e8;
+        transform: rotate(.5deg);
+        border-radius: .5em;
+        -webkit-box-shadow: 5px 5px 1px 0px #ACE4FD; 
+        box-shadow: 5px 5px 1px 0px #ACE4FD;
+        margin-bottom: 4em;
+    }
+    .hero-header{
+        width: 45%;
+        text-align: left;
+        padding: 1em;
+        background-color: #f5f5f5;
+        border-radius: 1em;
+        transform: rotate(-2deg);
+    }
+    
+    .hero-header-img-div{
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        transform: rotate(3.5deg);
+        transform-origin: top left;
+    }
+    .hero-header-img{
+        max-width: 100%;
+        height: auto;
+        border: 1px white solid;
+    }
+    .hero-hide{
+        display: flex;
+    }
     .contacts{
         display: flex;
         flex-direction: row;
