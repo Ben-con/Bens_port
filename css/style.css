@@ -308,6 +308,45 @@ padding-bottom: 0;
 #javascript-demo-ex1,#javascript-demo-ex2,#javascript-demo-ex3,#javascript-demo-ex4,#javascript-demo-ex5,#javascript-demo-ex6,#javascript-demo-ex7,#javascript-demo-ex8{
     transition: 1s;
 }
+.opening-top{
+    width: 100%;
+    height: 50vh;
+    z-index: 1021;
+    position:fixed;
+    background-color: #ffe9de;
+    top: 0;
+    left: 0;
+}
+.opening-bottom{
+    z-index: 1021;
+    width: 100%;
+    height: 50vh;
+    z-index: 1021;
+    position:fixed;
+    background-color: #ffe9de;
+    bottom: 0;
+    right: 0;
+}
+.opening-img{
+    z-index: 1022;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #627DA8;
+}
+.opening-img-div{
+    position: fixed;
+    width: 20%;
+    z-index: 1022;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.opening-div{
+    width: 100%;
+    z-index: 1021;
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* Main page css end ---------------------------------------------------------------- */
