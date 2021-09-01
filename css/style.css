@@ -295,9 +295,12 @@ padding-bottom: 0;
 }
 .skills-card-1{
  background-color: #56b46a;
+ transform-origin: top left;
+ transform: rotate(2deg);
 }
 .skills-card-2{
  background-color: #fbc53f;
+ transform: rotate(-2deg);
 }
 .skills-card-3{
     background-color: #818cf8;
