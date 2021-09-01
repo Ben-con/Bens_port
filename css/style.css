@@ -397,6 +397,7 @@ padding-bottom: 0;
     
 }
 
+
 #javascript-demo-ex1,#javascript-demo-ex2,#javascript-demo-ex3,#javascript-demo-ex4,#javascript-demo-ex5,#javascript-demo-ex6,#javascript-demo-ex7,#javascript-demo-ex8{
     transition: 1s;
 }
@@ -820,6 +821,10 @@ padding-bottom: 0;
         top: 35vh;
         left: 43vw;
     }
+    .contact-p-title{
+        width: 35%;
+        text-align: start;
+    }
 
 }
 @media screen and (min-width: 1024px){
@@ -877,13 +882,13 @@ padding-bottom: 0;
         flex-direction: column;
         list-style: none;
         justify-content: center;
-        width: 75%;
         padding: 1em 5em 1em 5em;
         margin: 0 auto;
         background-color: whitesmoke;
         border-radius: 1em;
         text-align: center;
     }
+    
     
     .contact-info-p{
      display: flex;
