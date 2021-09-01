@@ -235,6 +235,8 @@ padding-bottom: 0;
     flex-direction: column;
     background-color: #f5f5f5;
     border-bottom: 8px black solid;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
 }
 .project-p p{
     background-color: #FFFAFA;
@@ -244,13 +246,12 @@ padding-bottom: 0;
 .project-img{
     margin: 0 auto;
     border-bottom: black 8px solid;
-    
-
-    
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+    border-top: 5px black solid;
 }
 
 .column-card{
-   
     margin-bottom: 4em;
 }
 .btn-center{
