@@ -100,24 +100,38 @@ padding-bottom: 0;
 }
 .hero-button1,.hero-button2{
     padding: 1em;
-    background-color: #ff8243;
+    background: rgb(231,0,208);
+    background: linear-gradient(324deg, rgba(231,0,208,1) 20%, rgba(246,112,13,1) 100%);
     text-decoration: none;
     border-radius: .5em;
-    color: #037ffc;
+    color: whitesmoke;
     transition: .5s;
     margin-bottom: 1em;
 
 }
 .hero-button2{
-    background-color: #ff7518;
+    background: rgb(231,0,208);
+    background: linear-gradient(124deg, rgba(231,0,208,1) 20%, rgba(246,112,13,1) 100%);
 }
 .hero-button1:hover{
-    background-color: #ff7518;
+    color: whitesmoke;
     border-radius: 3em;
+    background: rgb(231,0,208);
+    background: linear-gradient(224deg, rgba(231,0,208,1) 20%, rgba(246,112,13,1) 100%);
+    animation-name:buttonPulse;
+    animation-duration: 750ms;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-out;
 }
 .hero-button2:hover{
-    background-color: #ff8243;
+   color: whitesmoke;
     border-radius: 3em;
+    background: rgb(231,0,208);
+    background: linear-gradient(34deg, rgba(231,0,208,1) 20%, rgba(246,112,13,1) 100%);
+    animation-name:buttonPulse;
+    animation-duration: 750ms;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-out;
 }
 .hero-button-p{
     margin: 0;
@@ -200,11 +214,11 @@ padding-bottom: 0;
     background-color: #ffb692;
     border-radius: 1.5em;
     border: 1px solid #ff8243;
-    padding: 1em;
+    padding: .5em;
     margin: 0 auto;
     margin-top: .5em;
     transition: .5s;
-    width: 60%;
+    width: 90%;
     text-align: center;
 }
 .download-link:hover{
@@ -243,6 +257,20 @@ padding-bottom: 0;
     width: 100%;
     display: flex;
     justify-content: center;
+}
+.unhide-button{
+    background: rgb(0,128,231);
+    background: linear-gradient(128deg, rgba(0,128,231,1) 20%, rgba(246,112,13,1) 100%);
+    color: white;
+    transition: 1s;
+}
+.unhide-button:hover{
+    background: rgb(0,128,231);
+    background: linear-gradient(219deg, rgba(0,128,231,1) 20%, rgba(246,112,13,1) 100%);
+    animation-name:buttonPulse;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-out;
 }
 
 .hide{
@@ -739,6 +767,8 @@ padding-bottom: 0;
       
     }
 
+    
+
     .carousel-con{
         width: 75%;
         margin: 0 auto;
@@ -896,6 +926,18 @@ padding-bottom: 0;
     }
     .accordion-round{
         border-bottom-left-radius: 2em;
+    }
+    .download-link{
+        text-decoration: none;
+        background-color: #ffb692;
+        border-radius: 1.5em;
+        border: 1px solid #ff8243;
+        padding: 1em;
+        margin: 0 auto;
+        margin-top: .5em;
+        transition: .5s;
+        width: 60%;
+        text-align: center;
     }
 }
 
