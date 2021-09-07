@@ -603,6 +603,12 @@ padding-bottom: 0;
 
 
 }
+.sub-page-summary-img{
+    width: 35%;
+    margin: 0 auto;
+    background-color: #e1f9fd;
+    border-radius: 2em;
+}
 .sub-page-middle-text{
     width: 95%;
     margin: 0 auto;
@@ -625,6 +631,9 @@ padding-bottom: 0;
 }
 .sub-page-picture{
     max-width: 100%;
+}
+.sub-page-picture:first-child{
+    border-radius: 3em;
 }
 
 .sub-page-hide1{
