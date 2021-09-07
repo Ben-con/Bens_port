@@ -529,6 +529,7 @@ padding-bottom: 0;
     text-align: center;
     display: flex;
     flex-direction: row;
+    margin-bottom: 2em;
 }
 .sub-page-main-title{
     width: fit-content;
@@ -568,6 +569,7 @@ padding-bottom: 0;
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-bottom: 2em;
 
 }
 .sub-page-secondary-titles{
@@ -579,26 +581,31 @@ padding-bottom: 0;
 }
 .sub-page-blank{
     width: 22.5%;
-    background-color: grey;
-
 }
 .sub-page-parent-middle{
  display: flex;
  flex-direction: row;
  width: 95%;
  margin: 0 auto;
+ margin-bottom: 2em;
+ justify-content: center;
 }
 .sub-page-middle-content{
-    width: 40%;
+    width: 45%;
+    display: flex;
+
 
 }
 .sub-page-middle-text{
     width: 95%;
     margin: 0 auto;
-    text-align: center;
+}
+.sub-page-inner{
+    align-self: center;
+    justify-self: center;
 }
 .sub-page-img-div{
-    width:30% ;
+    width:35% ;
 }
 .sub-page-picture{
     max-width: 100%;
