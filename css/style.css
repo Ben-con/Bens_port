@@ -605,14 +605,19 @@ padding-bottom: 0;
 .sub-page-middle-text{
     width: 95%;
     margin: 0 auto;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 19px;
+    line-height: 28.8px;
 }
 .sub-page-inner{
     align-self: center;
 }
 .sub-page-img-div{
     width:35% ;
+    display: flex;
+    flex-direction: row;
+}
+.sub-page-inner-img-div{
+    align-self: center;
 }
 .sub-page-picture{
     max-width: 100%;
