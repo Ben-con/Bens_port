@@ -529,7 +529,8 @@ padding-bottom: 0;
     text-align: center;
     display: flex;
     flex-direction: row;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
+    background-color: #e1f9fd;
 }
 .sub-page-main-title{
     width: fit-content;
@@ -569,8 +570,13 @@ padding-bottom: 0;
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
 
+}
+.sub-page-parent-top-bottom:last-child{
+    background-color: #e1f9fd;
+    margin-bottom: 0;
+    padding-bottom: 4em;
 }
 .sub-page-secondary-titles{
     text-align: center;
