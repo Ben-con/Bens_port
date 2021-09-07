@@ -520,62 +520,22 @@ padding-bottom: 0;
 /* Main page css end ---------------------------------------------------------------- */
 /* Sub Pages css start ---------------------------------------------------------------- */
 
-.sub-pages-header{
-    text-align: center;
-    margin-bottom: 2rem ;
-}
-.sub-page-link{
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
+.sub-page-container{
+    width: 100%;
 }
 
-.project-imformation{
-    align-content: center;
-}
-.project-skills-used{
+.sub-page-title-div{
+    width: 100%;
+    text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
-
-.skills-used-header{
-    text-align: center;
-    margin-top: .5em;
-    background-color: whitesmoke;
-    border-radius: 1em;
-    padding: .5em 0em .5em 0em;
-}
-
-.sub-page-img{
-    padding: 1em;
-    margin-bottom: 1em;
-}
-.sub-page-img1{
- background: rgb(10,83,157);
- background: linear-gradient(163deg, rgba(10,83,157,1) 57%, rgba(255,255,255,1) 100%);
- border-radius: 0;
-}
-.sub-page-img2{
-    background: rgb(10,83,157);
-    background: linear-gradient(195deg, rgba(10,83,157,1) 57%, rgba(255,255,255,1) 100%);
-    border-radius: 0;
-}
-.sub-page-img3{
-    background: rgb(10,83,157);
-    background: linear-gradient(9deg, rgba(10,83,157,1) 57%, rgba(255,255,255,1) 100%);
-    border-radius: 0;
-}
-    
-.sub-page-img4{
-    background: rgb(10,83,157);
-    background: linear-gradient(349deg, rgba(10,83,157,1) 57%, rgba(255,255,255,1) 100%);
-    border-radius: 0;
-}
-.sub-pages-p{
+.sub-page-main-title{
+    width: fit-content;
+    margin: 0 auto;
+    padding: .5em;
     margin-top: 2em;
-    padding: 1em;
-    background-color: whitesmoke;
-    border-radius: 1em;
+    
 }
 .sub-pages-text{
     margin: 0 auto;
@@ -586,7 +546,7 @@ padding-bottom: 0;
     border: 1px black solid;
     color:black;
     border-radius: 1em;
-    margin-bottom: .3em;
+    margin-bottom: 2.3em;
     transition: .5s;
 }
 .sub-pages-text:hover{
@@ -601,9 +561,49 @@ padding-bottom: 0;
 .sub-pages-link{
     text-decoration: none;
 }
-.no-show{
-    display: none;
+
+
+
+.sub-page-parent-top-bottom{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
 }
+.sub-page-secondary-titles{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.sub-page-center-div{
+    width: 55%;
+}
+.sub-page-blank{
+    width: 22.5%;
+    background-color: grey;
+
+}
+.sub-page-parent-middle{
+ display: flex;
+ flex-direction: row;
+ width: 95%;
+ margin: 0 auto;
+}
+.sub-page-middle-content{
+    width: 40%;
+
+}
+.sub-page-middle-text{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sub-page-img-div{
+    width:30% ;
+}
+.sub-page-picture{
+    max-width: 100%;
+}
+
 
 
 
@@ -628,6 +628,7 @@ padding-bottom: 0;
     color: white;
     width: fit-content;
     margin: 0 auto;
+    margin-bottom: 1.5em;
 }
 .contact-ul,.contact-info-div{
     display: flex;
@@ -876,6 +877,8 @@ padding-bottom: 0;
         color: white;
         width: fit-content;
         margin: 0 auto;
+        margin-bottom: 2.5em;
+        padding-top: 1.5em;
     }
     .contact-ul,.contact-info-div{
         display: flex;

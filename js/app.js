@@ -235,7 +235,7 @@ const openingDivTop = document.querySelector(".opening-top");
 const openingDivBottom = document.querySelector(".opening-bottom");
 const openingDivImgDiv = document.querySelector(".opening-img-div");
 const openingDivImg = document.querySelector(".opening-img");
-
+if(openingDiv){
 function hideAnimation(){
     openingDiv.classList.add("opening-hide");
     openingDivBottom.classList.add("opening-hide");
@@ -245,7 +245,7 @@ function hideAnimation(){
 }
 
 setTimeout(hideAnimation,2900);
-
+}
 
 
 
