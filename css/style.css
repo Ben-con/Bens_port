@@ -516,6 +516,13 @@ padding-bottom: 0;
     }
 }
 
+.experience-title{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em;
+}
+
 
 /* Main page css end ---------------------------------------------------------------- */
 /* Sub Pages css start ---------------------------------------------------------------- */
