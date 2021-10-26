@@ -176,6 +176,28 @@ if(projectsUnhide){
     });
 }
 // -----------------------See more projects end------------------------------------------
+// -----------------------rotate cube start------------------------------------------
+const upArrow = document.querySelector(".top-arrow");
+const downArrow = document.querySelector(".bot-arrow");
+const rightArrow = document.querySelector(".right-arrow");
+const leftArrow = document.querySelector(".left-arrow");
+const cube = document.querySelector(".exp-cube");
+
+upArrow.addEventListener("click",() =>{
+    cube.style.transform = "rotateX(90deg)"
+});
+downArrow.addEventListener("click",() =>{
+    cube.style.transform = "rotateX(-90deg)"
+})
+leftArrow.addEventListener("click",() =>{
+    cube.style.transform = "rotatey(-90deg)"
+})
+rightArrow.addEventListener("click",() =>{
+    cube.style.transform = "rotatey(90deg)"
+})
+
+
+// -----------------------rotate cube end------------------------------------------
 // -----------------------Svg Hovers Start------------------------------------------
 
 const svgImg1 = document.querySelector(".svg-1");
