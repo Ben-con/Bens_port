@@ -183,6 +183,9 @@ const rightArrow = document.querySelector(".right-arrow");
 const leftArrow = document.querySelector(".left-arrow");
 const cube = document.querySelector(".exp-cube");
 
+
+
+
 upArrow.addEventListener("click",() =>{
     cube.style.transform = "rotateX(90deg)"
 });
