@@ -177,29 +177,66 @@ if(projectsUnhide){
 }
 // -----------------------See more projects end------------------------------------------
 // -----------------------rotate cube start------------------------------------------
-const upArrow = document.querySelector(".top-arrow");
-const downArrow = document.querySelector(".bot-arrow");
-const rightArrow = document.querySelector(".right-arrow");
-const leftArrow = document.querySelector(".left-arrow");
 const cube = document.querySelector(".exp-cube");
 
+if (cube) {
+    const eduBut1 = document.querySelector(".edu-but-1");
+    const eduBut2 = document.querySelector(".edu-but-2");
+    const eduBut3 = document.querySelector(".edu-but-3");
+    const eduBut4 = document.querySelector(".edu-but-4");
+    const allEdu = document.querySelectorAll('.edu-button')
+    const clickOut = document.querySelector('.experience-cube-container')
+    eduBut1.addEventListener("click", () => {
+        cube.style.transform = "rotateX(90deg)";
+        allEdu.forEach(item => {
+            item.classList.remove("edu-button-active");
+        });
+        eduBut1.classList.add('edu-button-active');
+    });
+    eduBut2.addEventListener("click", () => {
+        cube.style.transform = "rotateX(-90deg)";
+        allEdu.forEach(item => {
+            item.classList.remove("edu-button-active");
+        });
+        eduBut2.classList.add('edu-button-active');
+    })
+    eduBut3.addEventListener("click", () => {
+        cube.style.transform = "rotatey(-90deg)";
+        allEdu.forEach(item => {
+            item.classList.remove("edu-button-active");
+        });
+        eduBut3.classList.add('edu-button-active');
+    })
+    eduBut4.addEventListener("click", () => {
+        cube.style.transform = "rotatey(90deg)";
+        allEdu.forEach(item => {
+            item.classList.remove("edu-button-active");
+        });
+        eduBut4.classList.add('edu-button-active');
+    })
+    document.addEventListener('click', e => {
+        let clickedOutside = true;
+  
+        e.path.forEach(item => {
+          if (!clickedOutside)
+            return;
+  
+          if (item.className === 'edu-button-container')
+            clickedOutside = false;
+        });
+  
+        if (clickedOutside){
+            cube.style.transform = "rotatey(0deg)";
+            cube.style.transform = "rotateX(0deg)";
+            allEdu.forEach(item => {
+                item.classList.remove("edu-button-active");
+            });
 
-
-
-upArrow.addEventListener("click",() =>{
-    cube.style.transform = "rotateX(90deg)"
-});
-downArrow.addEventListener("click",() =>{
-    cube.style.transform = "rotateX(-90deg)"
-})
-leftArrow.addEventListener("click",() =>{
-    cube.style.transform = "rotatey(-90deg)"
-})
-rightArrow.addEventListener("click",() =>{
-    cube.style.transform = "rotatey(90deg)"
-})
-
-
+        }
+          
+      });
+      
+}
 // -----------------------rotate cube end------------------------------------------
 // -----------------------Svg Hovers Start------------------------------------------
 

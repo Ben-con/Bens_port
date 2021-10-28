@@ -523,44 +523,20 @@ padding-bottom: 0;
     padding-bottom: 3rem;
 }
 .edu-title{
-    width: 40%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 2.5rem;
     
 }
-.arrow{
-    margin: 0;
-    font-size: 2em;
-    cursor: pointer;
-}
 
-.arrow-container-top,.arrow-container-bot,.arrow-container-left,.arrow-container-right{
-    text-align: center;
-    align-self: center;
-    padding: .5em;
-    
-}
-.arrow-container-top{
-    margin-bottom: 1em;
-}
-.arrow-container-left{
-    margin-right: 1em;
-}
-.arrow-container-right{
-    margin-left: 1em;
-
-}
-.arrow-container-bot{
-    margin-top: 1em;
-}
 .experience-cube-container{
     width: 90%;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
     flex-direction:row;
-    perspective: 800px;
+    perspective: 1200px;
     display: flex;
    
 }
@@ -607,6 +583,40 @@ padding-bottom: 0;
     background-color: #37474f;
     transform: rotateX(-90deg) translateZ(100px);
 }
+.edu-button-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+.edu-button{
+    width: 100%;
+    text-align: center;
+    border: thin solid black;
+    background-color: #FF7F7F;
+    padding: .5em;
+    transition: .5s;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: 5px 20px 35px -1px rgba(0,0,0,0.62); 
+    box-shadow: 5px 20px 35px -1px rgba(0,0,0,0.62);
+}
+.edu-button-active{
+    position: relative;
+    top: 4px;
+    -webkit-box-shadow: 5px -10px 35px -1px rgba(0,0,0,0.38); 
+    box-shadow: 5px -10px 35px -1px rgba(0,0,0,0.38);
+    background-color: #90ee90;
+}
+.edu-button-p{
+    margin: 0;
+    font-size: .95em;
+    
+}
+
 
 
 /* Main page css end ---------------------------------------------------------------- */
@@ -909,6 +919,15 @@ padding-bottom: 0;
     .carousel-con{
         width: 75%;
         margin: 0 auto;
+    }
+    .edu-button-container{
+        width: 65%;
+    }
+    .edu-button{
+        width: 20%;
+    }
+    .edu-button-p{
+        font-size: 1em;
     }
     
     .skills-ul-list{
