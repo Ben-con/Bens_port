@@ -184,8 +184,8 @@ if (cube) {
     const eduBut2 = document.querySelector(".edu-but-2");
     const eduBut3 = document.querySelector(".edu-but-3");
     const eduBut4 = document.querySelector(".edu-but-4");
-    const allEdu = document.querySelectorAll('.edu-button')
-    const clickOut = document.querySelector('.experience-cube-container')
+    const allEdu = document.querySelectorAll('.edu-button');
+    
     eduBut1.addEventListener("click", () => {
         cube.style.transform = "rotateX(90deg)";
         allEdu.forEach(item => {
