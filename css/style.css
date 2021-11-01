@@ -630,22 +630,16 @@ padding-bottom: 0;
 
 .sub-page-title-div{
     width: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 4em;
     background-color: #e1f9fd;
 }
 .sub-page-main-title{
-    width: fit-content;
-    margin: 0 auto;
-    padding: .5em;
-    margin-top: 2em;
+   text-align: center;
     
 }
 .sub-pages-text{
     margin: 0 auto;
     width:fit-content;
+    margin-top: 1em;
     padding: 1em;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(63,133,203,1) 100%);
@@ -654,6 +648,10 @@ padding-bottom: 0;
     border-radius: 1em;
     margin-bottom: 2.3em;
     transition: .5s;
+}
+.view-on-git{
+    text-align: center;
+    padding: 1em;
 }
 .sub-pages-text:hover{
     background: rgb(87,255,0);
@@ -671,8 +669,6 @@ padding-bottom: 0;
 
 
 .sub-page-parent-top-bottom{
-    display: flex;
-    flex-direction: row;
     width: 100%;
     margin-bottom: 4em;
     
@@ -690,6 +686,7 @@ padding-bottom: 0;
 }
 .sub-page-center-div{
     width: 90%;
+    margin: 0 auto;
 }
 .sub-page-blank{
     width: 5%;
@@ -697,10 +694,11 @@ padding-bottom: 0;
 .sub-page-parent-middle{
  display: flex;
  flex-direction: row;
- width: 95%;
+ width: 100%;
  margin: 0 auto;
  margin-bottom: 2em;
  justify-content: center;
+ background-color: #E8EFF7;
 }
 .sub-page-middle-content{
     width: 95%;
@@ -715,17 +713,16 @@ padding-bottom: 0;
     border-radius: 2em;
 }
 .sub-page-middle-text{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     padding: 1em;
 }
 .sub-page-inner{
     align-self: center;
-    background-color: #E8EFF7;
     border-radius: .3em;
 }
 .sub-page-img-div{
-    width:35% ;
+    width:40% ;
     display: none;
     flex-direction: row;
 }
@@ -992,20 +989,20 @@ padding-bottom: 0;
     .sub-page-parent-middle{
      display: flex;
      flex-direction: column;
-     width: 95%;
+     width: 100%;
      margin: 0 auto;
-     margin-bottom: 2em;
+     padding: 1em;
      justify-content: center;
     }
     .sub-page-middle-content{
-        width: 55%;
+        width: 100%;
         display: flex;
         align-self: center;
     
     
     }
     .sub-page-summary-img{
-        width: 35%;
+        width: 50%;
         margin: 0 auto;
         background-color: #e1f9fd;
         border-radius: 2em;
@@ -1135,10 +1132,10 @@ padding-bottom: 0;
     .sub-page-parent-middle{
         display: flex;
         flex-direction: row;
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
-        margin-bottom: 2em;
         justify-content: center;
+        padding: 3em;
     }
     
 
