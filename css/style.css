@@ -720,6 +720,11 @@ padding-bottom: 0;
 .sub-page-inner{
     align-self: center;
     border-radius: .3em;
+    position: relative;
+}
+.goals-container{
+  
+   text-align: center;
 }
 .sub-page-img-div{
     width:40% ;
@@ -997,7 +1002,7 @@ padding-bottom: 0;
     .sub-page-middle-content{
         width: 100%;
         display: flex;
-        align-self: center;
+        
     
     
     }
