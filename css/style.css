@@ -10,6 +10,9 @@ body{
     border: 1px red solid;
     transition: border 1s;
 }
+a{
+    text-decoration: none;
+}
 
 /* Main Page css start ---------------------------------------------------------------- */
 .navbar{
@@ -703,7 +706,8 @@ padding-bottom: 0;
 .sub-page-middle-content{
     width: 95%;
     display: flex;
-
+    opacity: 1;
+    transition: 1s;
 
 }
 .sub-page-summary-img{
@@ -731,7 +735,7 @@ padding-bottom: 0;
    transition: 1s;
 }
 .goals-parent{
- width: 40%;
+ width: 95%;
  margin: 0 auto;
  background-color: #ffe9de;
  border: 3px double white;
@@ -767,6 +771,10 @@ background-color: #FFFAFA;
     padding: .5em;
     border: black 4px double;
     background-color: aliceblue;
+}
+.go-to-goals-h3{
+    width: 100%;
+    margin: 0 auto;
 }
 .sub-page-img-div{
     width:40% ;
@@ -1083,6 +1091,12 @@ background-color: #FFFAFA;
     .sub-page-picture:first-child{
         border-radius: 3em;
     }
+    .go-to-goals-h3{
+        width: 75%;
+    }
+    .goals-parent{
+        width: 65%;
+    }
     
     .sub-page-hide1{
         display: none;
@@ -1183,6 +1197,12 @@ background-color: #FFFAFA;
         margin: 0 auto;
         justify-content: center;
         padding: 3em;
+    }
+    .go-to-goals-h3{
+        width: 40%;
+    }
+    .goals-parent{
+        width: 40%;
     }
     
 

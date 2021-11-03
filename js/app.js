@@ -241,24 +241,32 @@ if (cube) {
 
 // -----------------------Sub page goals Start------------------------------------------
 const goTo = document.querySelector(".go-to-goals-h3")
+if(goTo){
 const goBack = document.querySelector(".return-h3")
 const subPageParentMiddle = document.querySelector(".sub-page-parent-middle")
 const goals = document.querySelector(".goals-container")
 const appearAni = document.querySelector(".goals-parent")
+const appear2= document.querySelector(".sub-page-middle-content")
 
 goTo.addEventListener("click",()=>{
     subPageParentMiddle.style.opacity = "0";
     subPageParentMiddle.style.display = "none";
-    goals.style.display = "flex"
-    goals.style.opacity ="1"
-    setTimeout(()=>{appearAni.style.opacity="1"},1000);
+    appear2.style.opacity="0";
+    goals.style.display = "flex";
+    goals.style.opacity ="1";
+    setTimeout(()=>{appearAni.style.opacity="1"},200);
 
 })
 goBack.addEventListener('click',()=>{
-    subPageParentMiddle.style.display ="flex"
-    goals.style.display = "none"
+    subPageParentMiddle.style.display ="flex";
+    subPageParentMiddle.style.opacity ="1";
+    goals.style.display = "none";
+    appearAni.style.opacity="0";
+    setTimeout(()=>{appear2.style.opacity="1"},200);
+
 })
-console.log(goals)
+}
+
 
 
 
