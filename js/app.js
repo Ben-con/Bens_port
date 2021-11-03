@@ -244,12 +244,14 @@ const goTo = document.querySelector(".go-to-goals-h3")
 const goBack = document.querySelector(".return-h3")
 const subPageParentMiddle = document.querySelector(".sub-page-parent-middle")
 const goals = document.querySelector(".goals-container")
-const appearAni = document.querySelector
+const appearAni = document.querySelector(".goals-parent")
 
 goTo.addEventListener("click",()=>{
     subPageParentMiddle.style.opacity = "0";
     subPageParentMiddle.style.display = "none";
     goals.style.display = "flex"
+    goals.style.opacity ="1"
+    setTimeout(()=>{appearAni.style.opacity="1"},1000);
 
 })
 goBack.addEventListener('click',()=>{
