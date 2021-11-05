@@ -53,6 +53,11 @@ padding-bottom: 0;
         transform: scale(1.1) rotate(-30deg);
 
     }
+.nav-item,.nav-link{
+    
+    border-right: 1px lightblue solid;
+    border-radius: 5em;
+}
 .hero-img{
     border-radius: 50%;
     background-color: lightblue;
@@ -637,6 +642,7 @@ padding-bottom: 0;
 }
 .sub-page-main-title{
    text-align: center;
+   padding-top: 2em;
     
 }
 .sub-pages-text{

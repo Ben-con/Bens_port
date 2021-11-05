@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Ben Connell front-end Web developer Employee Directory</title>
+    <title>Ben Connell front-end Web developer Form project</title>
 </head>
 <body>
       <!-- Nav start---------------------------------------------------- -->
@@ -21,12 +21,6 @@
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="index.html" id="javascript-demo-ex1">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#about" id="javascript-demo-ex2">About me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#contact-me" id="javascript-demo-ex3">Contact me</a>
-              </li>
               <li>
                 <div class="dropdown">
                   <a class=" nav-link dropdown-toggle javascript-demo-ex4" href="index.html#projects" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -36,7 +30,7 @@
                   <ul class="dropdown-menu menu-nav" aria-labelledby="dropdownMenuLink">
                     <li class="dropdown-li"><a class="dropdown-item" id="javascript-demo-ex5" href="web-app.html">Web Application</a></li>
                     <li class="dropdown-li"><a class="dropdown-item" id="javascript-demo-ex6" href="employee-directory.html">Employee directory</a></li>
-                    <li class="dropdown-li"><a class="dropdown-item" id="javascript-demo-ex7" href="index.html#subpage-project-redirect">Signup form</a></li>
+                    <li class="dropdown-li"><a class="dropdown-item" id="javascript-demo-ex7" href="signup.html">Signup form</a></li>
                     <li class="dropdown-li"><a class="dropdown-item" id="javascript-demo-ex8" href="index.html#subpage-project-redirect">Photo Gallery</a></li>
                     <li class="dropdown-li"><a class="dropdown-item" id="javascript-demo-ex9"  href="index.html#subpage-project-redirect">wheel of Success</a></li>
                     <li class="dropdown-li"><a class="dropdown-item" id="first-port-more" href="index.html#subpage-project-redirect">First Portfolio</a></li>
@@ -44,10 +38,16 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index.html#skills">Skills</a>
+                <a class="nav-link" href="index.html#about" id="javascript-demo-ex2">About me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="index.html#experience">My Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#contact-me" id="javascript-demo-ex3">Contact me</a>
               </li>
             </ul>
           </div>
@@ -57,8 +57,8 @@
         <div class="sub-page-container">
           <div class="sub-page-title-div">
             <div class="sub-page-center-div">
-              <h1 class="sub-page-main-title"> Employee Directory Project</h1>
-              <a class="sub-pages-link" href="https://github.com/Ben-con/TechDegree-Project-8/tree/gh-pages"><p class="view-on-git">View Code on GitHub</p></a>
+              <h1 class="sub-page-main-title"> Web form Project</h1>
+              <a class="sub-pages-link" href="https://github.com/Ben-con/Techdegree-project-3/tree/gh-pages"><p class="view-on-git">View Code on GitHub</p></a>
             </div>
           </div>
           <div class="sub-page-parent-top-bottom">
@@ -66,9 +66,9 @@
               <div>
                 <h2 class="sub-page-secondary-titles">Summary of Project</h2>
                 <div class="sub-page-summary-img">
-                  <img class="sub-page-picture" src="imgs/employee-dir-2.jpg" alt="Employee Directory Project picture">
+                  <img class="sub-page-picture" src="imgs/form-1.jpg" alt="Employee Directory Project picture">
                 </div>
-                <p class="sub-page-middle-text">For this project, I used a combination of CSS Grid and Javascript to make a nice looking directory. While aesthetics may not be your first priority when making an employee directory, CSS Grid makes it easy to make one that is not only functional but also stylish. This project was the biggest Javascript undertaking that I have ever completed. It had moments of frustration but, when I finished it, I was very proud of myself.</p>
+                <p class="sub-page-middle-text">Forms are a very large part of many websites. It's very good to know how to make them. Making forms is really easy after you get the hang of it. Lots of websites use them to take payment info, to collect feedback and to create mailing lists.</p>
              </div>
             </div>
           </div>
@@ -92,14 +92,14 @@
           <div class="sub-page-parent-middle">
             <div class="sub-page-img-div">
               <div class="sub-page-inner-img-div">
-                <img class="sub-page-picture" src="imgs/employee-dir-1.jpg" alt="Employee Directory Project picture">
+                <img class="sub-page-picture" src="imgs/form-2.jpg" alt="Employee Directory Project picture">
               </div>
            </div>
             <div class="sub-page-middle-content">
               <div class="sub-page-inner">
-                <h3 class="sub-page-secondary-titles"> <strong>The approach </strong>  </h3>
+                <h2 class="sub-page-secondary-titles"> <strong>The approach </strong>  </h2>
                 <div class="sub-page-middle-text">
-                  <p> The approach I took for this project was I wrote the very basic HTML needed then I started with CSS Grid to lay out the employee cards, After that I Started working on the JavaScript to pull the information needed from the employee API. Once I had the employee Information, I wrote the JavaScript that would dynamically load all the data taken from the API onto my pre-set cards I made. Finally, I finished by writing the JavaScript that would open more detailed information about a specific employee, as well as making sure everything worked well.</p>
+                  <p> The approach I took for this project was I first looked at the mockup i was given to give myself an idea of what type of form was wanted. I then started by writing the HTML includeing all of the form fields like Name Address Province ECT, as well as the submit button that was positioned at the bottom of the form. After that I went through with CSS and made sure all of the form fields where in the position as well as looked nice. Finally i went through and added some html to certain form fields to make it so they were required to submit the from using the submit button that had created.</p>
                   <h4 class="go-to-goals-h3"><a href="javascript:void(0)" class="go-to-goals-link">Click the view goals</a></h4>
                 </div>
               </div>
@@ -113,46 +113,26 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                      JavaScript
+                      HTML
                     </button>
                   </h2>
                   <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS.</div>
+                    <div class="accordion-body">The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      Css
+                      CSS
                     </button>
                   </h2>
                   <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                      FlexBox
-                    </button>
-                  </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Flexbox is a one-dimensional layout method for arranging items in rows or columns. Items flex (expand) to fill additional space or shrink to fit into smaller spaces.</div>
-                  </div>
-                </div>
-                <div class="accordion-item accordion-round">
-                  <h2 class="accordion-header" id="flush-headingFour">
-                    <button class="accordion-button collapsed accordion-round" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                      CSS Grid
-                    </button>
-                  </h2>
-                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                      CSS Grid Layout excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives. Like tables, grid layout enables an author to align elements into columns and rows.</div>
-                  </div>
-                </div>
+                
               </div>
-              <a href="https://ben-con.github.io/TechDegree-Project-8//" class="sub-pages-link"><p class="sub-pages-text"> View Live Version!</p></a>
+              <a href="https://ben-con.github.io/Techdegree-project-3/" class="sub-pages-link"><p class="sub-pages-text"> View Live Version!</p></a>
             </div>
           </div>
         </div>
