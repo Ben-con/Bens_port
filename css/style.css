@@ -549,8 +549,8 @@ padding-bottom: 0;
    
 }
 .exp-cube{
-    width: 200px;
-    height: 200px;
+    width: 40vh;
+    height: 40vh;
     background-color: teal;
     position: relative;
     transform-style: preserve-3d;
@@ -569,29 +569,29 @@ padding-bottom: 0;
 
 .sides:first-child {
     background-color: #f06292;
-    transform: translateZ(100px);
+    transform: translateZ(20vh);
     transition: 2s;
 }
 
 .sides:nth-child(2) {
     background-color: #9575cd;
-    transform: rotateY(90deg) translateZ(100px);
+    transform: rotateY(90deg) translateZ(20vh);
 }
 .sides:nth-child(3) {
     background-color: #4fc3f7;
-    transform: translateZ(-100px);
+    transform: translateZ(-20vh);
 }
 .sides:nth-child(4) {
     background-color: #aed581;
-    transform: rotateY(-90deg) translateZ(100px);
+    transform: rotateY(-90deg) translateZ(20vh);
 }
 .sides:nth-child(5) {
     background-color: #004d40;
-    transform: rotateX(90deg) translateZ(100px);
+    transform: rotateX(90deg) translateZ(20vh);
 }
 .sides:last-child {
     background-color: #37474f;
-    transform: rotateX(-90deg) translateZ(100px);
+    transform: rotateX(-90deg) translateZ(20vh);
 }
 .cube-title{
     width: 100%;
